@@ -605,16 +605,9 @@ async def upload(bot: Client, m: Message):
                 name = f'{str(count).zfill(3)}) {name1[:60]}'
                 cmd = f'yt-dlp -o "{name}.mp4" "{url}"'
 
-            
-            #elif '/master.mpd' in url:
-             #id =  url.split("/")[-2]
-             #url = f"https://player.muftukmall.site/?id={id}"
-            elif "/master.mpd" in url or "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
-             id =  url.split("/")[-2]
-             #url = f"https://d1d34p8vz63oiq.cloudfront.net/a32f0885-cf0b-41d4-8b0c-8dd04f7e6ff2/master.mpd&parentId=676ad9449870d50ffe5fec56&childId=681251d561c8873cc0bdc7d
-            #elif '/master.mpd' in url:
-             #id =  url.split("/")[-2]
-             #url = f"https://dl.alphacbse.site/download/{id}/master.m3u8"
+        
+            elif "/https://pwplayer-38c1ae95b681.herokuapp.com/pw?url={url}&token={your_working_token}   
+             #url "/https://d1d34p8vz63oiq.cloudfront.net/a32f0885-cf0b-41d4-8b0c-8dd04f7e6ff2/master.mpd&parentId=676ad9449870d50ffe5fec56&childId=681251d561c8873cc0bdc7d5
             
         
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
